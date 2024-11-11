@@ -1,0 +1,24 @@
+.dynamic-delete-button {
+    position: relative;
+    top: 4px;
+    margin: 0 8px;
+    color: #999;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .dynamic-delete-button:hover {
+    color: #777;
+  }
+  .dynamic-delete-button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  .ant-form-item-control-input .ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-select-outlined.ant-select-disabled:not(.ant-select-customize-input) .ant-select-selector {
+  background: rgba(0, 0, 0, 0.04);
+  color: rgb(0 0 0);
+}

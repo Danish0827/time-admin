@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg.mx-auto.h-4.w-4.transition-transform {
+  color: black !important;
+}
