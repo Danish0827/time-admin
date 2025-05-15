@@ -38,7 +38,6 @@ app.get("/api/getFeature",async (req, res) => {
   }
 });
 
-
 // PUT API endpoint to update feature details
 app.put("/api/updateFeature/:featureid", authenticate,async (req, res) => {
   const { featureid } = req.params;
