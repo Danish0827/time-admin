@@ -27,8 +27,6 @@ app.post("/api/addHadeeth",authenticate, async (req, res) => {
     }
 });
 
-
-
 //get api for Hadeeth
 app.get("/api/getHadeeth" ,authenticate, async (req,res)=>{
     try{
