@@ -73,7 +73,6 @@ app.put("/api/updateHadeeth/:hadeethid",authenticate, async (req, res) => {
     }
 });
 
-
 //delete api for Hadeeth
 app.delete("/api/deleteHadeeth/:hadeethid" ,authenticate, async (req,res)=>{
     const {hadeethid} = req.params
